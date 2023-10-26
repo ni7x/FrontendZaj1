@@ -25,7 +25,7 @@
             </label>
             <label class="smaller">
                 Phone
-                <input type="tel" required>
+                <input type="tel" required pattern="[0-9]{3} [0-9]{3} [0-9]{3}">
             </label>
             <label class="smaller">
                 Date of birth
@@ -40,61 +40,61 @@
                 </select>
             </label>
         
-            <label  class="radioButtons">
+            <label class="radioButtons">
                 What are you looking for
                 <div>
                     <fieldset>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="jobRole" value="Software Engineer" required>
                             Software Engineer
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="jobRole" value="UX Designer">
                             UX Designer
                         </label>
                         <label>
-                            <input type="checkbox">
-                            Analitics Specialist
+                            <input type="radio" name="jobRole" value="Analytics Specialist">
+                            Analytics Specialist
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="jobRole" value="Project Manager">
                             Project Manager
                         </label>
                     </fieldset>
-                </div>    
-            </label>  
-            
+                </div>
+            </label>
+        
             <label class="radioButtons">
                 Which programming languages do you know?
                 <div>
                     <fieldset>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="programmingLanguage" value="Java" required>
                             Java
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="programmingLanguage" value="C#">
                             C#
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="programmingLanguage" value="Javascript">
                             Javascript
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="programmingLanguage" value="Kotlin">
                             Kotlin
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="programmingLanguage" value="Python">
                             Python
                         </label>
                         <label>
-                            <input type="checkbox">
+                            <input type="radio" name="programmingLanguage" value="Scala">
                             Scala
                         </label>
                     </fieldset>
-                </div>    
-            </label>  
+                </div>
+            </label>
             <label class="txtArea">
                 Message
                 <textarea placeholder="Type your message"></textarea>

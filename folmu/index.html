@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folmularz</title>
+    <link rel="stylesheet" href="folmularz.css">
+</head>
+<body>
+    <main>
+        <h2>Employment form</h2>
+        <form>
+            <label>
+                First name
+                <input type="text" required>
+            </label>
+            <label>
+                Last name
+                <input type="text" required>
+            </label>
+        
+            <label class="smaller">
+                E-mail
+                <input type="email" required>
+            </label>
+            <label class="smaller">
+                Phone
+                <input type="tel" required>
+            </label>
+            <label class="smaller">
+                Date of birth
+                <input type="date" required min="2023-10-26">
+            </label>
+        
+            <label class="bigger">
+                Gender
+                <select required>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </label>
+        
+            <label  class="radioButtons">
+                What are you looking for
+                <div>
+                    <fieldset>
+                        <label>
+                            <input type="checkbox">
+                            Software Engineer
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            UX Designer
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Analitics Specialist
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Project Manager
+                        </label>
+                    </fieldset>
+                </div>    
+            </label>  
+            
+            <label class="radioButtons">
+                Which programming languages do you know?
+                <div>
+                    <fieldset>
+                        <label>
+                            <input type="checkbox">
+                            Java
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            C#
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Javascript
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Kotlin
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Python
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Scala
+                        </label>
+                    </fieldset>
+                </div>    
+            </label>  
+            <label class="txtArea">
+                Message
+                <textarea placeholder="Type your message"></textarea>
+            </label>
+
+            <div class="controlButtons">
+                <input type="button" value="Reset">
+                <input type="submit">
+            </div>
+           
+        </form>
+    </main>
+</body>
+</html>

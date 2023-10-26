@@ -55,7 +55,7 @@ section{
     background-color: #ffd602;
     width: 70%;
     height: 12px;
-    border-bottom: 3px solid #c0a000;
+    border-bottom: 3px solid #d19b05;
 }
 
 .tomato{
@@ -68,7 +68,7 @@ section{
 .meat{
     background-color: #cd6434;
     width: 60%;
-    height: 30px;
+    height: 25px;
     border-radius: 20px;
     border-bottom: 3px solid #8c4423;
 }

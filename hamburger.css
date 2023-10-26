@@ -7,7 +7,7 @@ body{
 div.main{
     width: 40%;
     min-width: 500px;
-    height: 600px;
+    height: 675px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,4 +111,12 @@ ul.balls li{
     height: 30px;
     border-bottom: 10px solid #008001;
     border-radius: 0 0 50px 50px;
+}
+
+.plate{
+    background-color: #999999;
+    width: 70%;
+    height: 25px;
+    border-top: 7px solid #5c5c5c;
+    border-radius: 5px 5px 50px 50px;
 }
